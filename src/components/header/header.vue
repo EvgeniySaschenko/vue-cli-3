@@ -3,11 +3,10 @@
 
   +b.HEADER.header
     .container
-      +e.row_main HEADER
-    .container
-      +e.row_second
-        +e.col_button-main-menu Кнопка
-        +e.col_search Поиск
+      +e.row
+        +e.col_logo
+          +e.ROUTER-LINK(to="/").logo
+            +e.IMG(src="~@/assets/img/logo.svg").logo-img
 </template>
 
 <script>

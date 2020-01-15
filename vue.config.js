@@ -21,5 +21,5 @@ module.exports = {
             prependData: `@import "~@/assets/style/variables.sass"; @import "~@/assets/style/_mixins.sass";`
           }
         }
-    }
+    },
 }

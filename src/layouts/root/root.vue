@@ -5,9 +5,11 @@
     app-header
     +b.layout_root
       .container
+        +e.row_top-panel
+          app-button-menu-main
         +e.row_content
           +e.col_sidebar
-            app-sidebar
+            app-sidebar(:sidebarShow="sidebarShow" :menuMainShow="menuMainShow")
               slot(name="sidebar")
           +e.col_content
             slot(name="content")
@@ -16,8 +18,8 @@
 
 <script>
   export default {
-      name: 'appLayout',
-      props: ['content', 'sidebar'],
+    name: 'appLayout',
+    props: ['content', 'sidebar', 'sidebarShow', 'menuMainShow'],
   }
 </script>
 

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Menu 1",
+    "link": "/"
+  },
+  {
+    "name": "Menu 2",
+    "link": "/about"
+  },
+  {
+    "name": "Menu 3",
+    "link": "/"
+  },
+  {
+    "name": "Menu 4",
+    "link": "/about"
+  },
+  {
+    "name": "Menu 5",
+    "link": "/"
+  },
+  {
+    "name": "Menu 6",
+    "link": "/about"
+  }
+]

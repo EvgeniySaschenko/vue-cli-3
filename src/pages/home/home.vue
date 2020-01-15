@@ -1,9 +1,7 @@
 <template lang="pug">
   include /node_modules/bemto.pug/bemto.pug
   
-  +b.APP-LAYOUT.page_home
-    template(v-slot:sidebar)
-      div 5555
+  +b.APP-LAYOUT(:sidebarShow="true" :menuMainShow="true").page_home
     template(v-slot:content)
       +b.MAIN.main
         +e.row HOME PAGE
